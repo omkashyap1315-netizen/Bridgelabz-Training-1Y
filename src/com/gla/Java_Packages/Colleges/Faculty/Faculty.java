@@ -1,0 +1,19 @@
+package com.gla.Java_Packages.Colleges.Faculty;
+
+public class Faculty {
+    private int id;
+    private String name;
+    private String subject;
+
+    public Faculty(int id, String name, String subject) {
+        this.id = id;
+        this.name = name;
+        this.subject = subject;
+    }
+
+    public void displayFaculty() {
+        System.out.println("Faculty ID: " + id);
+        System.out.println("Name: " + name);
+        System.out.println("Subject: " + subject);
+    }
+}
