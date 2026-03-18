@@ -1,6 +1,6 @@
 package com.gla;
 
-public class Book {
+public class Book_ {
 
     protected int bookId;
     protected String title;
@@ -10,7 +10,7 @@ public class Book {
     public static String libraryName = "City Central Library";
 
     // Constructor
-    public Book(int bookId, String title, double price) {
+    public Book_(int bookId, String title, double price) {
         this.bookId = bookId;
         this.title = title;
         this.price = price;

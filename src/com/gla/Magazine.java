@@ -1,6 +1,6 @@
 package com.gla;
 
-public class Magazine extends Book {
+public class Magazine extends Book_ {
 
     public Magazine(int bookId, String title, double price) {
         super(bookId, title, price);
